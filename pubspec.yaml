@@ -1,0 +1,16 @@
+name: chroma_dart
+description: A wrapper for chromajs using the new package/js
+version: 0.0.1
+author: Andres Araujo <a.araujo.azua@gmail.com>
+#homepage: https://www.example.com
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  js: ^0.6.0
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
+  browser: '>=0.10.0 <0.11.0'
+  dart_to_js_script_rewriter: '^0.1.0'
